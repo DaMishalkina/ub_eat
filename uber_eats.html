@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
     <link rel="stylesheet" href="main_style.css">
     <link rel="stylesheet" href="uber_eat_page_style.css.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <title>Uber eats</title>
 </head>
 <body>
@@ -165,10 +166,14 @@
     <hr>
     <div class="page-footer__inner">
         <div class="page-footer__social">
-            <select class="page-footer__language" name="language">
-                <option value="Russian">Русский</option>
-                <option value="English">English</option>
-            </select>
+            <div class="page-footer__container language-container">
+                <img class="language-container__image" src="public/world.svg"
+                     width="16px" height="16px">
+                <select class="language-container__select" name="language">
+                    <option value="Russian">Русский</option>
+                    <option value="English">English</option>
+                </select>
+            </div>
             <p class="page-footer__tag tag-link">
                 <span class="tag-link__sign">#</span>
                 <span class="tag-link__title">UberEats</span>

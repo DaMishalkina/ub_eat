@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93928ae1-69ed-4551-96f0-429a08d368e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pushkin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uber_eat_page_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/final_final_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/final_final_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pushkin.html" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styleUber.css" beforeDir="false" afterPath="$PROJECT_DIR$/main_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uber_eats.html" beforeDir="false" afterPath="$PROJECT_DIR$/uber_eats.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +54,7 @@
       <workItem from="1588063163403" duration="11211000" />
       <workItem from="1588155344943" duration="5073000" />
       <workItem from="1588245718078" duration="6925000" />
-      <workItem from="1588746934785" duration="4375000" />
+      <workItem from="1588746934785" duration="13001000" />
     </task>
     <servers />
   </component>

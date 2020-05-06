@@ -42,7 +42,7 @@ body {
     padding: 14px 20px;
     background-color: #FFFFFF;
     border: 0.1em solid #E0E0E0;
-    margin-right: 16px;
+    margin-right: -16px;
 
 }
 
@@ -83,7 +83,59 @@ hr {
     padding-bottom: 40px;
 }
 
-.page-footer__language{
+.language-container{
+    width: 173px;
+    height: 40px;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    background-color: hsl(0, 0%, 23%);
+    overflow: hidden;
+    margin-right: 139px;
+    opacity: 1.0;
+    position: relative;
+
+}
+
+.language-container__image {
+    margin-right: 16px;
+    margin-left: 16px;
+
+}
+
+.language-container__select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    width: 125px;
+    height: 40px;
+    border-radius: 0;
+    background-color: hsl(0, 0%, 23%);
+    border: none;
+    color: #FFFFFF;
+
+}
+
+.language-container:hover,
+.language-container:focus {
+    opacity: 0.8;
+
+}
+
+.language-container::after{
+    font-family: FontAwesome;
+    content: '\f107';
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    color: #FFFFFF;
+    pointer-events: none;
+}
 
 
+/* For IE <= 11 */
+.page-footer__language::-ms-expand {
+    display: none;
 }
