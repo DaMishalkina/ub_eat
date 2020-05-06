@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93928ae1-69ed-4551-96f0-429a08d368e0" name="Default Changelist" comment="" />
+    <list default="true" id="93928ae1-69ed-4551-96f0-429a08d368e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pushkin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uber_eat_page_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pushkin.html" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styleUber.css" beforeDir="false" afterPath="$PROJECT_DIR$/main_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber_eats.html" beforeDir="false" afterPath="$PROJECT_DIR$/uber_eats.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1awD3FsbW5iYpeMyXGo3U4rprZz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -17,6 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="ServiceViewManager">
     <option name="showServicesTree" value="false" />
@@ -34,7 +53,9 @@
       <workItem from="1587637569989" duration="21304000" />
       <workItem from="1587988311991" duration="9046000" />
       <workItem from="1588063163403" duration="11211000" />
-      <workItem from="1588155344943" duration="4432000" />
+      <workItem from="1588155344943" duration="5073000" />
+      <workItem from="1588245718078" duration="6925000" />
+      <workItem from="1588746934785" duration="4375000" />
     </task>
     <servers />
   </component>
@@ -42,9 +63,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1588155345547">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1588747185106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/289.-1050.1680.1010@0.0.1366.728" timestamp="1588155345547" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/289.-1050.1680.1010@0.0.1366.728" timestamp="1588747185106" />
   </component>
 </project>

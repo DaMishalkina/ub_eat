@@ -47,7 +47,7 @@ body {
 }
 
 .user-list__basket {
-    /*visibility: hidden;*/
+    visibility: hidden;
 
 }
 
@@ -57,4 +57,33 @@ a {
 
 li {
     list-style-type: none;
+}
+
+/*Footer*/
+
+.page-footer {
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #262626;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #979797;
+}
+
+.footer-header {
+    padding-top: 56px;
+    padding-bottom: 40px;
+}
+
+.page-footer__inner{
+    padding-top: 32px;
+    padding-bottom: 40px;
+}
+
+.page-footer__language{
+
+
 }
