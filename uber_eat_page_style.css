@@ -1,11 +1,15 @@
+/*.page-header {*/
+/*    box-shadow: 0 3px 5px -5px;*/
+/*}*/
+
 .page-main {
     padding-right: 4px;
     padding-left: 4px;
 }
-/**/
+/*Search bar*/
 
 .search {
-    margin-top: 32px;
+    margin-top: 55px;
 }
 
 .search__line {
@@ -15,10 +19,7 @@
     background: transparent;
     border-bottom: 1px solid hsla(0, 0%, 38%, 0.3);
     font-family: Roboto, sans-serif;
-    /*font-size: 16px;*/
-    /*color: hsl(0, 0%, 74%);*/
-    /*margin-left: 4px;*/
-
+    line-height: 24px;
 }
 
 .search__line[type=text] {
@@ -33,3 +34,72 @@
     margin-left: 4px;
     font-size: 16px;
 }
+
+/*Restaurants cards*/
+
+.restaurants__header {
+    margin-left: 4px;
+    margin-bottom: 16px;
+    margin-top: 56px;
+}
+
+.title {
+    font-size: 22px;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+}
+
+.restaurants__list {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 43px;
+}
+
+.restaurant-card__container {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 16px;
+    padding-bottom: 20px;
+}
+
+.restaurant-card__image {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.restaurant-card__title {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #1D1D1D;
+    line-height: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 16px;
+
+}
+
+.restaurant-card__cuisine {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #626262;
+    line-height: 21px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.restaurant-card__preparing-time {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    color: #1D1D1D;
+    line-height: 21px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
