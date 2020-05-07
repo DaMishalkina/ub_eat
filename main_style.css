@@ -205,7 +205,40 @@ hr {
 /**/
 
 .page-footer__app {
+
+    /*margin-top: 24px;*/
+    /*padding-top: 0px;*/
+}
+
+.app-list {
     display: flex;
     flex-shrink: 0;
+    justify-content: center;
     margin-top: 24px;
+    margin-bottom: 24px;
 }
+
+.app-list_item {
+    margin-right: 24.4px;
+}
+
+/**/
+
+.page-footer__bottom {
+    margin-top: 40px;
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+}
+
+.bottom-list {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+}
+
+.bottom-item {
+    margin-bottom: 24px;
+}
+
+
