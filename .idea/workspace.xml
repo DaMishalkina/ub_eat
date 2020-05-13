@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93928ae1-69ed-4551-96f0-429a08d368e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/uber_eat_tablet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uber_eat_desktop.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablet_main.css" beforeDir="false" afterPath="$PROJECT_DIR$/tablet_main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop_main.css" beforeDir="false" afterPath="$PROJECT_DIR$/desktop_main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uber_eats.html" beforeDir="false" afterPath="$PROJECT_DIR$/uber_eats.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,7 @@
       <workItem from="1588746934785" duration="19323000" />
       <workItem from="1588846015026" duration="17742000" />
       <workItem from="1589274988260" duration="24293000" />
-      <workItem from="1589380121284" duration="7121000" />
+      <workItem from="1589380121284" duration="7970000" />
     </task>
     <task id="LOCAL-00001" summary="footer css, select language">
       <created>1588761880153</created>
@@ -93,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589386119956</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="uber_eat css for tablets">
+      <created>1589389971990</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589389971990</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,17 +125,18 @@
     <MESSAGE value="css for mobiles" />
     <MESSAGE value="main css for tablets" />
     <MESSAGE value="main css for desktops" />
-    <option name="LAST_COMMIT_MESSAGE" value="main css for desktops" />
+    <MESSAGE value="uber_eat css for tablets" />
+    <option name="LAST_COMMIT_MESSAGE" value="uber_eat css for tablets" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1589386119278">
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1589389971338">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589386119278" />
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1589386126049">
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589389971338" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1589389974340">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589386126049" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589389974340" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1589380132271">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
