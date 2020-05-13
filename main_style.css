@@ -19,10 +19,9 @@ body {
 }
 
 .page-header__logo-image {
-    width: 105.44px;
-    height: 10.88px;
+    width: 107px;
+    height: 11px;
 }
-
 
 
 .page-header__list{
@@ -43,7 +42,7 @@ body {
     padding: 14px 20px;
     background-color: #FFFFFF;
     border: 0.1em solid #E0E0E0;
-    margin-right: -16px;
+    margin-right: -8px;
 }
 
 .user-list__basket {
@@ -105,8 +104,6 @@ hr {
 .language-container__image {
     margin-right: 16px;
     margin-left: 16px;
-
-
 }
 
 .language-container__select{
@@ -210,7 +207,6 @@ hr {
 /**/
 
 .page-footer__app {
-
     /*margin-top: 24px;*/
     /*padding-top: 0px;*/
 }
@@ -247,7 +243,13 @@ hr {
 }
 
 
-@media (min-width: 700px){
+@media (min-width: 768px){
+
+
+}
+
+@media (min-width: 1200px){
+
 
 }
 

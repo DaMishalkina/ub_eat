@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93928ae1-69ed-4551-96f0-429a08d368e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tablet_main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pushkin.css" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pushkin.html" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pushkin_public/solenya.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/uber_eat_page_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/uber_eat_page_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uber_eats.html" beforeDir="false" afterPath="$PROJECT_DIR$/uber_eats.html" afterDir="false" />
     </list>
@@ -58,7 +57,8 @@
       <workItem from="1588245718078" duration="6925000" />
       <workItem from="1588746934785" duration="19323000" />
       <workItem from="1588846015026" duration="17742000" />
-      <workItem from="1589274988260" duration="24125000" />
+      <workItem from="1589274988260" duration="24293000" />
+      <workItem from="1589380121284" duration="3443000" />
     </task>
     <task id="LOCAL-00001" summary="footer css, select language">
       <created>1588761880153</created>
@@ -74,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588767765749</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="css for mobiles">
+      <created>1589370241724</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589370241829</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,21 +103,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="footer css, select language" />
     <MESSAGE value="footer, info-block" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer, info-block" />
+    <MESSAGE value="css for mobiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="css for mobiles" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1588767764809">
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1589370226687">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1588767764809" />
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589370226687" />
     <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1588767770461">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1588767770461" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1589275173415">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1589380132271">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589275173415" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589380132271" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/289.-1050.1680.1010@0.0.1366.728" timestamp="1588747185106" />
   </component>
 </project>

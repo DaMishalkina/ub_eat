@@ -6,6 +6,7 @@
 /*Search bar*/
 .search {
     margin-top: 55px;
+    margin-right: 4px;
 }
 
 .search__line {
@@ -16,12 +17,14 @@
     border-bottom: 1px solid hsla(0, 0%, 38%, 0.3);
     font-family: Roboto, sans-serif;
     line-height: 24px;
+
 }
 
 .search__line[type=text] {
     color: hsla(0, 0%, 38%, 0.3);
     margin-left: 4px;
     font-size: 16px;
+
 
 }
 
