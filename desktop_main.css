@@ -1,0 +1,39 @@
+@media (min-width: 1200px){
+    .page-header {
+        padding: 0 87px 0 81px;
+    }
+
+    .page-header__logo-image {
+        width: 119.23px;
+        height: 12.31px;
+    }
+
+    .page-main {
+        padding: 0 84px 0;
+    }
+
+    .page-footer__logo-image {
+        width: 190.77px;
+        height: 19.69px;
+    }
+
+    .page-footer {
+        padding: 0 84px 0;
+    }
+
+    .language-container{
+        width: 227px;
+        margin-right: 0;
+    }
+
+    .page-footer__social {
+        margin-right: 97px;
+    }
+
+    .page-footer__item {
+        margin-right: 128px;
+    }
+    .
+
+
+}
