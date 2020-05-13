@@ -39,7 +39,6 @@
 }
 
 .restaurant-card__info {
-    margin-top: 0;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -83,10 +82,10 @@
 }
 
 .nav-links {
-    margin-left: 6px;
+    /*margin-left: 6px;*/
     padding-left: 0;
     display: flex;
-    flex-wrap: nowrap;
+    /*flex-wrap: nowrap;*/
     /*justify-content: center;*/
 }
 
@@ -97,5 +96,111 @@
 }
 
 .nav-links__item {
-    margin-right: 10px;
+/*margin-right: 10px;*/
 }
+
+
+/**/
+
+.menu__category-name {
+    margin: 0 auto;
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    padding-top: 56px;
+    padding-bottom: 12px;
+    text-align: center;
+
+}
+
+.menu__category-wrapper{
+    background: #757575;
+    border: 0;
+    height: 1px;
+    margin-left: 145px;
+    margin-right: 145px;
+    margin-bottom: 47px;
+}
+
+.item-title {
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    color: #1D1D1D;
+    font-weight: revert;
+    margin-left: 0;
+}
+
+.item-title__wrapper {
+    /*width: 180px;*/
+    /*white-space: nowrap;*/
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+}
+
+.menu-table{
+    /*padding: 0;*/
+    /*margin: 0 auto;*/
+    width: 100%;
+    margin-top: -4px;
+
+}
+
+.menu-table__item-info {
+    text-align: start;
+}
+
+.menu-table__item-link {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.menu-tables__wrapper {
+    margin-bottom: 40px;
+}
+
+.menu-table__item {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px solid hsla(0, 0%, 38%, 0.3);
+    margin-bottom: 16px;
+
+}
+
+
+
+.item-image {
+    width: 102px;
+    height: auto;
+}
+
+.item-title__wrapper {
+    /*margin-bottom: 41px;*/
+}
+
+.item-title {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.item-contains {
+    color: #626262;
+    font-size: 13px;
+    font-family: Roboto, sans-serif;
+    margin-top: 4px;
+    margin-bottom: -32px;
+    font-weight: normal;
+}
+
+.item-price {
+    margin-top: 41px;
+    color: #1D1D1D;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+

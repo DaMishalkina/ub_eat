@@ -6,7 +6,9 @@
       <change beforePath="$PROJECT_DIR$/main_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pushkin.css" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pushkin.html" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pushkin_public/solenya.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/uber_eat_page_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/uber_eat_page_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber_eats.html" beforeDir="false" afterPath="$PROJECT_DIR$/uber_eats.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +58,7 @@
       <workItem from="1588245718078" duration="6925000" />
       <workItem from="1588746934785" duration="19323000" />
       <workItem from="1588846015026" duration="17742000" />
+      <workItem from="1589274988260" duration="24125000" />
     </task>
     <task id="LOCAL-00001" summary="footer css, select language">
       <created>1588761880153</created>
@@ -77,6 +80,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="footer css, select language" />
     <MESSAGE value="footer, info-block" />
@@ -91,10 +107,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1588767770461" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1588846210230">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1589275173415">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1588846210230" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589275173415" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/289.-1050.1680.1010@0.0.1366.728" timestamp="1588747185106" />
   </component>
 </project>
