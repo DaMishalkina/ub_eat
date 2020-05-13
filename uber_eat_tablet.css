@@ -1,0 +1,20 @@
+@media (min-width: 768px){
+    .page-main {
+        padding: 0 8px 0;
+    }
+    .restaurant-card__container {
+        width: auto;
+    }
+    .restaurant-card__image {
+        width: 368px;
+    }
+
+    .restaurants__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 48px;
+    }
+
+
+}
