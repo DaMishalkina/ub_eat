@@ -1,22 +1,18 @@
 @media (min-width: 768px) {
     .restaurant-card{
         margin: 80px 328px 80px 8px;
-        padding-right: 52px;
-        padding-left: 48px;
-        padding-bottom: 0;
+        padding: 38px 48px 38px 52px;
     }
     .restaurant-card__name {
         font-size: 36px;
     }
     .restaurant-card__info {
         flex-direction: row;
-        margin-top: 54px;
-        margin-bottom: 0;
+        margin: 54px 0 0;
     }
     .restaurant-card__preparing-time{
         margin-left: 112px;
         padding: 9px 16px;
-        margin-bottom: 38px;
     }
 
     .content-navbar {
@@ -57,9 +53,6 @@
     .menu__category-border {
         visibility: hidden;
         margin: 0;
-    }
-    .menu-tables__border {
-        margin-bottom: 48px;
     }
 
     .menu__category-name{

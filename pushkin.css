@@ -20,17 +20,17 @@
     display: flex;
     flex-direction: column;
     margin-bottom: -56px;
-    padding-top: 0;
     width: 100%;
     margin-right: 6px;
     margin-left: 6px;
-    padding-bottom: 32px;
+    /*padding-bottom: 32px;*/
+    padding: 25px 49px 24px;
 }
 
 .restaurant-card__name {
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 24px;
+    /*padding-top: 24px;*/
     text-align: center;
     font-family: Roboto, sans-serif;
     font-size: 24px;
@@ -49,7 +49,7 @@
     font-family: Roboto, sans-serif;
     font-size: 14px;
     color: #626262;
-    margin-bottom: 25px;
+    margin-bottom: 16px;
 }
 
 .restaurant-card__preparing-time {
