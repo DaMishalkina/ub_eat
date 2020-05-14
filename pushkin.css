@@ -10,7 +10,6 @@
     padding-top: 0;
     display: flex;
     justify-content: center;
-
 }
 
 
@@ -61,44 +60,14 @@
     padding: 9px 16px;
     margin: 0 auto;
     border-radius: 50px;
-
 }
 
 /**/
 
-.menu, .menu-content {
-    margin-right: 6px;
-    margin-left: 6px;
+.content-navbar {
+    visibility: hidden;
+    margin-bottom: -56px;
 }
-
-.menu {
-    margin-top: 88px;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.menu-header {
-    border-bottom: 1px solid hsla(0, 0%, 38%, 0.3);
-}
-
-.nav-links {
-    /*margin-left: 6px;*/
-    padding-left: 0;
-    display: flex;
-    /*flex-wrap: nowrap;*/
-    /*justify-content: center;*/
-}
-
-.nav-links__item-link {
-    color: hsla(0, 0%, 38%, 0.3);
-    font-size: 15px;
-    font-family: Roboto, sans-serif;
-}
-
-.nav-links__item {
-/*margin-right: 10px;*/
-}
-
 
 /**/
 
@@ -107,13 +76,12 @@
     font-family: Roboto, sans-serif;
     font-size: 22px;
     font-weight: lighter;
-    padding-top: 56px;
+    margin-top: 56px;
     padding-bottom: 12px;
     text-align: center;
-
 }
 
-.menu__category-wrapper{
+.menu__category-border{
     background: #757575;
     border: 0;
     height: 1px;
@@ -122,85 +90,97 @@
     margin-bottom: 47px;
 }
 
-.item-title {
-    font-size: 14px;
-    font-family: Roboto, sans-serif;
-    color: #1D1D1D;
-    font-weight: revert;
-    margin-left: 0;
+.menu-tables__wrapper {
+    margin: 0 6px 40px;
 }
 
-.item-title__wrapper {
-    /*width: 180px;*/
-    /*white-space: nowrap;*/
-    /*overflow: hidden;*/
-    /*text-overflow: ellipsis;*/
-}
-
-.menu-table{
-    /*padding: 0;*/
-    /*margin: 0 auto;*/
-    width: 100%;
+.menu-table {
+    margin: 0;
+    padding: 0;
+    list-style: none;
     margin-top: -4px;
-
 }
+
+/*Строка таблицы*/
+.menu-table__item {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    width: 100%;
+    border-bottom: 1px solid hsla(0, 0%, 38%, 0.3);;
+}
+
+/*Ячейка с текстом*/
 
 .menu-table__item-info {
-    text-align: start;
+    margin: 0;
+    padding: 0;
 }
 
+/*Ссылка*/
+
 .menu-table__item-link {
+    padding: 0;
+
+}
+
+/*Обёртка ячейки с текстом*/
+
+.item-info__wrapper {
+    padding: 0;
     display: flex;
     flex-direction: column;
 }
 
+/*Название блюда*/
 
-.menu-tables__wrapper {
-    margin-bottom: 40px;
+.item-title {
+    margin: 0;
+    color: #1D1D1D;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    width: 206px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
-.menu-table__item {
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    display: flex;
-    border-bottom: 1px solid hsla(0, 0%, 38%, 0.3);
-    margin-bottom: 16px;
+/*Примечание*/
+
+.item-contains {
+    color: #626262;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    margin-top: 4px;
+    margin-bottom: -21px;
 
 }
 
+/*Цена*/
 
+.item-price {
+    color: #1D1D1D;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 51px;
+
+}
+
+/*Ячейка с картинкой*/
+
+.menu-table__item-image {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Картинка блюда*/
 
 .item-image {
     width: 102px;
     height: auto;
 }
-
-.item-title__wrapper {
-    /*margin-bottom: 41px;*/
-}
-
-.item-title {
-    margin-top: 5px;
-    margin-bottom: 0;
-}
-
-.item-contains {
-    color: #626262;
-    font-size: 13px;
-    font-family: Roboto, sans-serif;
-    margin-top: 4px;
-    margin-bottom: -32px;
-    font-weight: normal;
-}
-
-.item-price {
-    margin-top: 41px;
-    color: #1D1D1D;
-    font-family: Roboto, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-
-
-
