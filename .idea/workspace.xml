@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93928ae1-69ed-4551-96f0-429a08d368e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pushkin_desktop.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop_main.css" beforeDir="false" afterPath="$PROJECT_DIR$/desktop_main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pushkin.css" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pushkin.html" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pushkin_tablet.css" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin_tablet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pushkin_desktop.css" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin_desktop.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +55,8 @@
       <workItem from="1588746934785" duration="19323000" />
       <workItem from="1588846015026" duration="17742000" />
       <workItem from="1589274988260" duration="24293000" />
-      <workItem from="1589380121284" duration="28185000" />
+      <workItem from="1589380121284" duration="29903000" />
+      <workItem from="1589808951856" duration="3354000" />
     </task>
     <task id="LOCAL-00001" summary="footer css, select language">
       <created>1588761880153</created>
@@ -123,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589454288913</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="pushkin css for desktops">
+      <created>1589461451031</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589461451031</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,21 +157,22 @@
     <MESSAGE value="uber_eat css for desktops" />
     <MESSAGE value="refactoring pushkin css for mobiles" />
     <MESSAGE value="pushkin css for tablets" />
-    <option name="LAST_COMMIT_MESSAGE" value="pushkin css for tablets" />
+    <MESSAGE value="pushkin css for desktops" />
+    <option name="LAST_COMMIT_MESSAGE" value="pushkin css for desktops" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1589454288318">
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1589461450374">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589454288318" />
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1589454291071">
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589461450374" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1589461467245">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589454291071" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1589380132271">
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589461467245" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1589809013243">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589380132271" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589809013243" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/289.-1050.1680.1010@0.0.1366.728" timestamp="1588747185106" />
   </component>
 </project>

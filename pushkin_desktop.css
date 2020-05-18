@@ -1,7 +1,9 @@
 @media (min-width: 1124px) {
     .restaurant-card {
-        margin: 80px 654px 80px 81px;
-        padding: 38px 29px 38px 38px;
+        margin: 80px auto 80px 81px;
+        padding: 38px 0 38px 38px;
+        max-width: 389px;
+
     }
 
     .restaurant-card__info {
@@ -21,7 +23,7 @@
     }
 
     .menu {
-        padding: 0 84px;
+        padding: 0 68px 0 84px;
     }
 
     .menu-header {
@@ -40,6 +42,8 @@
 
     .menu-table__item{
         margin-bottom: 49px;
+        /*max-width: 470px;*/
+
     }
 
     .menu-table__item-info {
@@ -56,6 +60,13 @@
     }
 
     .menu-table {
-        margin-left: 16px;
+        margin-right: 16px;
+
+    }
+
+    @-moz-document url-prefix() {
+        .menu-table__item {
+            max-width: 500px;
+        }
     }
 }
