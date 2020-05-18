@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93928ae1-69ed-4551-96f0-429a08d368e0" name="Default Changelist" comment="">
+    <list default="true" id="93928ae1-69ed-4551-96f0-429a08d368e0" name="Default Changelist" comment="table's max width in pushkin_desktop for FF">
+      <change afterPath="$PROJECT_DIR$/btn-up.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pushkin.css" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pushkin_desktop.css" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin_desktop.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pushkin.html" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber_eats.html" beforeDir="false" afterPath="$PROJECT_DIR$/uber_eats.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -56,7 +59,7 @@
       <workItem from="1588846015026" duration="17742000" />
       <workItem from="1589274988260" duration="24293000" />
       <workItem from="1589380121284" duration="29903000" />
-      <workItem from="1589808951856" duration="3354000" />
+      <workItem from="1589808951856" duration="7241000" />
     </task>
     <task id="LOCAL-00001" summary="footer css, select language">
       <created>1588761880153</created>
@@ -128,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589461451031</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="table's max width in pushkin_desktop for FF">
+      <created>1589812642753</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589812642753</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,17 +168,18 @@
     <MESSAGE value="refactoring pushkin css for mobiles" />
     <MESSAGE value="pushkin css for tablets" />
     <MESSAGE value="pushkin css for desktops" />
-    <option name="LAST_COMMIT_MESSAGE" value="pushkin css for desktops" />
+    <MESSAGE value="table's max width in pushkin_desktop for FF" />
+    <option name="LAST_COMMIT_MESSAGE" value="table's max width in pushkin_desktop for FF" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1589461450374">
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1589819585151">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589461450374" />
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1589461467245">
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589819585151" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1589812649165">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589461467245" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589812649165" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1589809013243">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

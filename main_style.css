@@ -1,8 +1,10 @@
 body {
     padding: 0;
     margin: 0 auto;
-    width: 100%;
+    max-width: 100%;
     min-width: 320px;
+    position: relative;
+    overflow-x: hidden;
 }
 
 .page-header{
@@ -241,6 +243,37 @@ hr {
 .bottom-item {
     margin-bottom: 24px;
 }
+
+.top-link {
+    transition: all .25s ease-in-out;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: inline-flex;
+    margin: 0 24px 24px 0;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+}
+
+.top-link.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.top-link.hide {
+    visibility: hidden;
+    opacity: 0;
+}
+.top-link__image {
+    width: 80px;
+    height: 80px;
+}
+
+.top-link:hover {
+    opacity: 0.8;
+}
+
 
 
 
