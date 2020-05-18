@@ -1,0 +1,11 @@
+@media (min-width: 1124px){
+    .page-main {
+        padding: 0 84px 0;
+    }
+    .restaurant-card__image {
+        width: 308px;
+    }
+    .restaurants__list{
+        margin-bottom: 80px;
+    }
+}

@@ -2,15 +2,21 @@
 <html lang="ru, en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
-    <link rel="stylesheet" href="styleUber.css">
+<!--    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">-->
+    <link rel="stylesheet" href="main_style.css">
+    <link rel="stylesheet" href="uber_eat_page_style.css">
+    <link rel="stylesheet" href="tablet_main.css">
+    <link rel="stylesheet" href="desktop_main.css">
+    <link rel="stylesheet" href="uber_eat_tablet.css">
+    <link rel="stylesheet" href="uber_eat_desktop.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width;  initial-scale=1">
     <title>Uber eats</title>
 </head>
 <body>
 <header class="page-header" id="#Uber">
     <a href="#" class="page-header__logo">
-        <img src="public/logo.png" alt="Uber eats" class="page-header__logo-image"
-        width="107px" height="11px">
+        <img src="public/logo.png" alt="Uber eat" class="page-header__logo-image">
     </a>
     <ul class="page-header__list user-list">
         <li class="user-list__item">
@@ -31,7 +37,7 @@
 
     <section class="search">
         <div class="search__wrapper">
-        <span class="search__line">Поиск по ресторанам и кухням</span>
+        <input class="search__line" type="text" placeholder="Поиск по ресторанам и кухням">
         </div>
     </section>
 
@@ -151,21 +157,27 @@
         </ul>
     </section>
 </main>
+
+
 <footer class="page-footer">
+
     <header class="footer-header">
         <a href="#Uber" class="page-footer__logo">
             <img class="page-footer__logo-image" src="public/white-logo.png"
-                alt="Uber Eats" width="192" height="20">
+                alt="Uber Eats">
         </a>
     </header>
-
-
+    <hr>
     <div class="page-footer__inner">
         <div class="page-footer__social">
-            <select class="page-footer__language " name="language">
-                <option value="Russian">Русский</option>
-                <option value="English">English</option>
-            </select>
+            <div class="page-footer__container language-container">
+                <img class="language-container__image" src="public/world.svg"
+                     width="16px" height="16px">
+                <select class="language-container__select" name="language">
+                    <option class="language-container__option" value="Russian">Русский</option>
+                    <option class="language-container__option" value="English">English</option>
+                </select>
+            </div>
             <p class="page-footer__tag tag-link">
                 <span class="tag-link__sign">#</span>
                 <span class="tag-link__title">UberEats</span>
@@ -196,17 +208,17 @@
             <div class="page-footer__item">
                <ul class="page-footer__item-list info-list">
                    <li class="info-list__item item-about">
-                       <a href="#" class="item-about__link">
+                       <a href="#" class="item-about__link page-footer__item-link">
                            Об UberEats
                        </a>
                    </li>
                    <li class="info-list__item item-delivery-partnership">
-                       <a href="#" class="item-delivery-partnership__link">
+                       <a href="#" class="item-delivery-partnership__link page-footer__item-link">
                            Станьте партнёром по доставке
                        </a>
                    </li>
                    <li class="info-list__item item-restaurant-partnership">
-                       <a href="#" class="item-restaurant-partnership__link">
+                       <a href="#" class="item-restaurant-partnership__link page-footer__item-link">
                            Станьте партнёром-рестораном
                        </a>
                    </li>
@@ -215,22 +227,22 @@
             <div class="page-footer__item">
                 <ul class="page-footer__item-list customer-list">
                     <li class="customer-list__item item-prices">
-                        <a href="#" class="item-prices__link">
+                        <a href="#" class="item-prices__link page-footer__item-link">
                             Все города
                         </a>
                     </li>
                     <li class="customer-list__item item-cities">
-                        <a href="#" class="item-cities__link">
+                        <a href="#" class="item-cities__link page-footer__item-link">
                             Цены
                         </a>
                     </li>
                     <li class="customer-list__item item-help">
-                        <a href="#" class="item-help__link">
+                        <a href="#" class="item-help__link page-footer__item-link">
                             Помощь
                         </a>
                     </li>
                     <li class="customer-list__item item-faqs">
-                        <a href="#" class="item-faqs__link">
+                        <a href="#" class="item-faqs__link page-footer__item-link">
                             FAQs
                         </a>
                     </li>
@@ -238,6 +250,9 @@
             </div>
         </div>
     </div>
+
+    <hr>
+
     <div class="page-footer__app">
         <ul class="page-footer_app-list app-list">
             <li class="app-list_item item-apple">
@@ -254,6 +269,9 @@
             </li>
         </ul>
     </div>
+
+    <hr>
+
     <p class="page-footer__bottom">
         <span class="bottom-list">
             <a class="bottom-item">
@@ -267,31 +285,6 @@
             </a>
         </span>
     </p>
-<!--        <ul class="footer-links__item social-list">-->
-<!--            <li class="social-list__item">-->
-<!--                <select name="language">-->
-<!--                    <option value="Русский">Русский</option>-->
-<!--                    <option value="English">English</option>-->
-<!--                </select>-->
-<!--            </li>-->
-<!--            <li class="social-list__item">-->
-<!--                <a href="#">-->
-
-<!--                </a>-->
-<!--            </li>-->
-<!--            <li class="social-list__item"></li>-->
-<!--        </ul>-->
-<!--        <ul class="footer-links__item uber-partenrship">-->
-<!--            <li class="uber-partnership__item"></li>-->
-<!--            <li class="uber-partnership__item"></li>-->
-<!--            <li class="uber-partnership__item"></li>-->
-<!--        </ul>-->
-<!--        <ul class="footer-links__item info-for-customer">-->
-<!--            <li class="info-for-customer__item"></li>-->
-<!--            <li class="info-for-customer__item"></li>-->
-<!--            <li class="info-for-customer__item"></li>-->
-<!--            <li class="info-for-customer__item"></li>-->
-<!--        </ul>-->
 
 </footer>
     

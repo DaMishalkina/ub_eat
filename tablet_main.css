@@ -1,0 +1,54 @@
+@media (min-width: 768px){
+    .user-list__login-button {
+        margin-right: 27px;
+    }
+
+    .user-list__basket {
+        visibility: visible;
+        margin-right: 10px;
+    }
+
+    .page-footer__inner{
+        padding-bottom: 48px;
+        display: flex;
+    }
+    .language-container{
+        width: 176px;
+        margin-right: 0;
+
+    }
+
+    .page-footer__social {
+        margin-right: 80px;
+    }
+    .page-footer__info-block{
+        display: flex;
+        margin-left: 0;
+    }
+    .page-footer__item {
+        margin-right: 60px;
+    }
+
+    .app-list {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .app-list_item {
+        margin-right: 39.73px;
+    }
+
+    .bottom-list {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .page-footer__bottom {
+        font-size: 11px;
+    }
+
+    .bottom-item {
+        margin-bottom: 40px;
+    }
+
+}

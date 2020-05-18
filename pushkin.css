@@ -1,0 +1,188 @@
+
+.restaurant-header {
+    background-image: url(pushkin_public/pushkin_background_mobile.svg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.restaurant-card {
+    margin-top: 131px;
+    background-color: white;
+    box-shadow: 0 3px 5px -5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -56px;
+    width: 100%;
+    margin-right: 6px;
+    margin-left: 6px;
+    /*padding-bottom: 32px;*/
+    padding: 25px 49px 24px;
+}
+
+.restaurant-card__name {
+    margin-top: 0;
+    margin-bottom: 0;
+    /*padding-top: 24px;*/
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.restaurant-card__info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.restaurant-card__cuisine {
+    margin-top: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    color: #626262;
+    margin-bottom: 16px;
+}
+
+.restaurant-card__preparing-time {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #1D1D1D;
+    padding: 9px 16px;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+/**/
+
+.content-navbar {
+    visibility: hidden;
+    margin-bottom: -56px;
+}
+
+/**/
+
+.menu__category-name {
+    margin: 0 auto;
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    margin-top: 56px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.menu__category-border{
+    background: #757575;
+    border: 0;
+    height: 1px;
+    margin-left: 145px;
+    margin-right: 145px;
+    margin-bottom: 47px;
+}
+
+.menu-tables__wrapper {
+    margin: 0 6px 40px;
+}
+
+.menu-table {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: -4px;
+    min-width: 320px;
+    width: 100%;
+}
+
+/*Строка таблицы*/
+.menu-table__item {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    width: 100%;
+    border-bottom: 1px solid hsla(0, 0%, 38%, 0.3);
+}
+
+/*Ячейка с текстом*/
+
+.menu-table__item-info {
+    margin: 0;
+    padding: 0;
+}
+
+/*Ссылка*/
+
+.menu-table__item-link {
+    padding: 0;
+
+}
+
+/*Обёртка ячейки с текстом*/
+
+.item-info__wrapper {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Название блюда*/
+
+.item-title {
+    margin: 0;
+    color: #1D1D1D;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    width: 206px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/*Примечание*/
+
+.item-contains {
+    color: #626262;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    margin-top: 4px;
+    margin-bottom: -21px;
+}
+
+/*Цена*/
+
+.item-price {
+    color: #1D1D1D;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 51px;
+
+}
+
+/*Ячейка с картинкой*/
+
+.menu-table__item-image {
+    margin: 0;
+    padding: 0;
+    margin-bottom: -7px;
+
+}
+
+/*Картинка блюда*/
+
+.item-image {
+    width: 102px;
+    height: 102px;
+}
