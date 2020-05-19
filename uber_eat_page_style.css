@@ -9,6 +9,10 @@
     margin-right: 4px;
 }
 
+.search__wrapper {
+    position: relative;
+}
+
 .search__line {
     width: 100%;
     border: 0;
@@ -34,6 +38,31 @@
     font-size: 16px;
 }
 
+.button__search-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    color: #80868b;
+    cursor: pointer;
+    height: 50%;
+    padding: 0;
+    background-color: #FFFFFF;
+    border: 0;
+    /*outline: none;*/
+}
+
+.close-btn__icon {
+    width: 24px;
+}
+
+.button__search-close:hover,
+.button__search-close:focus{
+    opacity: 0.3;
+    outline: none;
+}
+
+
 /*Restaurants cards*/
 .restaurants__header {
     margin-left: 4px;
@@ -45,6 +74,10 @@
     font-size: 22px;
     font-family: Roboto, sans-serif;
     font-weight: normal;
+}
+
+.restaurants__item.hide {
+    display: none;
 }
 
 .restaurants__list {

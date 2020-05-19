@@ -232,6 +232,7 @@ hr {
     color: #FFFFFF;
     font-family: Roboto, sans-serif;
     font-size: 13px;
+    margin-bottom: 0;
 }
 
 .bottom-list {
@@ -249,11 +250,10 @@ hr {
     position: fixed;
     bottom: 0;
     right: 0;
-    display: inline-flex;
-    margin: 0 24px 24px 0;
-    width: 80px;
-    height: 80px;
     padding: 0;
+    margin: 0 24px 24px 0;
+    width: 64px;
+    height: 64px;
 }
 
 .top-link.show {
@@ -266,8 +266,9 @@ hr {
     opacity: 0;
 }
 .top-link__image {
-    width: 80px;
-    height: 80px;
+    width: 64px;
+    height: 64px;
+    padding: 0;
 }
 
 .top-link:hover {

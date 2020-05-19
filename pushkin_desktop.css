@@ -1,6 +1,6 @@
 @media (min-width: 1124px) {
     .restaurant-card {
-        margin: 80px auto 80px 81px;
+        margin: 80px 654px 80px 81px;
         padding: 38px 0 38px 38px;
         max-width: 389px;
 
@@ -38,6 +38,7 @@
     .menu-tables__wrapper {
         margin-bottom: 80px;
         display: flex;
+        padding-right: -16px;
     }
 
     .menu-table__item{
@@ -61,7 +62,6 @@
 
     .menu-table {
         margin-right: 16px;
-
     }
 
     @-moz-document url-prefix() {

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="uber_eat_tablet.css">
     <link rel="stylesheet" href="uber_eat_desktop.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <meta name="viewport" content="width=device-width;  initial-scale=1">
+    <meta name="viewport" content="width=device-width,  initial-scale=1">
     <title>Uber eats</title>
 </head>
 <body>
@@ -36,16 +36,22 @@
 <main class="page-main">
 
     <section class="search">
-        <div class="search__wrapper">
-        <input class="search__line" type="text" placeholder="Поиск по ресторанам и кухням">
-        </div>
+        <form class="search__wrapper">
+            <input class="search__line" type="text" placeholder="Поиск по ресторанам и кухням" autofocus id="text-to-find"
+            value="">
+            <button class="button__search-close close-btn" type="button" value=" " id="search-form-clear" title="Отменить поиск">
+                <svg class="close-btn__icon" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+                </svg>
+            </button>
+        </form>
     </section>
 
     <section class="restaurants">
         <header class="restaurants__header">
             <h2 class="title">Рестораны в Москве</h2>
         </header>
-        <ul class="restaurants__list">
+        <ul class="restaurants__list" id="searchable-info" >
             <li class="restaurants__item restaurant-card">
                 <a  href="pushkin.html" class="restaurant-card__link">
                     <figure class="restaurant-card__container">
@@ -292,6 +298,6 @@
     <img src="public/btn-up.svg" alt="Вверх" class="top-link__image">
 </a>
 <script src="btn-up.js"></script>
-    
+<script src="search.js"></script>
 </body>
 </html>

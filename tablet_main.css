@@ -50,5 +50,15 @@
     .bottom-item {
         margin-bottom: 40px;
     }
+    .top-link {
+
+        width: 80px;
+        height: 80px;
+    }
+
+    .top-link__image {
+        width: 80px;
+        height: 80px;
+    }
 
 }
