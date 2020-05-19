@@ -49,6 +49,7 @@
     padding: 0;
     background-color: #FFFFFF;
     border: 0;
+    visibility: hidden;
     /*outline: none;*/
 }
 
