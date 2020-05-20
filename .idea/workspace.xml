@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="93928ae1-69ed-4551-96f0-429a08d368e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pushkin.html" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pushkin_desktop.css" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin_desktop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pushkin_tablet.css" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin_tablet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber_eat_page_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/uber_eat_page_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber_eats.html" beforeDir="false" afterPath="$PROJECT_DIR$/uber_eats.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +56,7 @@
       <workItem from="1588846015026" duration="17742000" />
       <workItem from="1589274988260" duration="24293000" />
       <workItem from="1589380121284" duration="29903000" />
-      <workItem from="1589808951856" duration="30533000" />
+      <workItem from="1589808951856" duration="50058000" />
     </task>
     <task id="LOCAL-00001" summary="footer css, select language">
       <created>1588761880153</created>
@@ -154,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589896485348</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="main page search update">
+      <created>1589901866201</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1589901866201</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,21 +189,22 @@
     <MESSAGE value="table's max width in pushkin_desktop for FF" />
     <MESSAGE value="btn-up button" />
     <MESSAGE value="main page search" />
-    <option name="LAST_COMMIT_MESSAGE" value="main page search" />
+    <MESSAGE value="main page search update" />
+    <option name="LAST_COMMIT_MESSAGE" value="main page search update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1589896481802">
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1589901863982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589896481802" />
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589901863982" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1589896001145">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589896001145" />
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1589896491426">
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1589917757852">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589896491426" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589917757852" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1589809013243">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
