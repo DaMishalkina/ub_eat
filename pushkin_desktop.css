@@ -26,13 +26,15 @@
         padding: 0 68px 0 84px;
     }
 
-    .menu-header {
+    .content-navbar {
         margin: 0;
+        padding: 0;
     }
 
     .nav-links {
-        padding-left: 0;
+        padding: 0;
         margin: 32px 0 29px 84px;
+
     }
 
     .menu-tables__wrapper {

@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="93928ae1-69ed-4551-96f0-429a08d368e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pushkin.css" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pushkin.html" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pushkin_desktop.css" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin_desktop.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pushkin_tablet.css" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin_tablet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
