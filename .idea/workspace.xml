@@ -4,7 +4,7 @@
     <list default="true" id="93928ae1-69ed-4551-96f0-429a08d368e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pushkin.css" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pushkin_desktop.css" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin_desktop.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pushkin_tablet.css" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin_tablet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589988358369</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="webkit scrollbar restyle">
+      <created>1589990324554</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589990324554</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,21 +206,22 @@
     <MESSAGE value="main page search" />
     <MESSAGE value="main page search update" />
     <MESSAGE value="scrollable menu for mobile version of pushkin restaurant page" />
-    <option name="LAST_COMMIT_MESSAGE" value="scrollable menu for mobile version of pushkin restaurant page" />
+    <MESSAGE value="webkit scrollbar restyle" />
+    <option name="LAST_COMMIT_MESSAGE" value="webkit scrollbar restyle" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1589988355373">
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1589990321892">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589988355373" />
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589990321892" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1589896001145">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589896001145" />
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1589988383903">
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1589990331057">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589988383903" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589990331057" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1589809013243">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
