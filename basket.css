@@ -1,0 +1,46 @@
+@media (min-width: 768px) {
+
+    .basket-container {
+        background-color: #FFFFFF;
+        position: fixed;
+        top: 74px;
+        right: 0;
+        bottom: 0;
+        padding: 24px;
+        font-size: 16px;
+        font-family: Roboto, sans-serif;
+        visibility: hidden;
+    }
+
+    .basket-full {
+        /*display: none;*/
+    }
+
+    .order-button {
+        position: fixed;
+        bottom: 20px;
+        padding: 8px 16px;
+        color: #FFFFFF;
+        background-color: #59BD5A;
+        font-family: Roboto, sans-serif;
+        font-size: 13px;
+        border: 0;
+        border-radius: 3px;
+    }
+
+    .order-button:hover {
+        opacity: 0.9;
+    }
+
+    .order-button:focus {
+        background-color: #327430;
+        outline: none;
+    }
+
+    body.hide {
+        overflow: hidden;
+    }
+
+}
+
+

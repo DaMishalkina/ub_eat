@@ -37,14 +37,3 @@ document.querySelector('#text-to-find').oninput = function () { /*Получае
 
 }
 
-/*let textInput = document.getElementById('text-to-find'),
-    clearBtn = document.getElementById('search-form-clear');
-
-textInput.onkeyup = function() {
-    clearBtn.style.visibility = (this.value.length) ? "visible" : "hidden";
-};
-clearBtn.onclick = function() {
-    this.style.visibility = "hidden";
-    textInput.value = "";
-
-};*/
