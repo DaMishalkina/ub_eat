@@ -1,9 +1,10 @@
 @media (min-width: 768px){
     .user-list__login-button {
-        margin-right: 27px;
+        margin-right: 0;
     }
 
     .user-list__basket {
+        margin-left: 27px;
         display: unset;
         visibility: visible;
         margin-right: 10px;

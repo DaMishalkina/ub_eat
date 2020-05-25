@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="pushkin_tablet.css">
     <link rel="stylesheet" href="pushkin_desktop.css">
     <link rel="stylesheet" href="restaurant-card__button-style.css">
+    <link rel="stylesheet" href="basket-module_mobile.css">
     <meta name="viewport" content="width=device-width,  initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <title>Корзина</title>
@@ -29,6 +30,7 @@
             <button class="user-list__basket basket-button" id="basket-button">
                 <img src="public/basket.png"  alt="Корзина" class="user-list__basket-image"
                      width="19" height="22">
+                <p class="basket-price"> 0 ₽ </p>
             </button>
         </li>
     </ul>
@@ -36,12 +38,16 @@
 
 <main class="page-main">
     <div class="basket-container" id="basket-form">
+        <div class="basket-pop-up__wrapper">
+            <hr class="basket-pop-up">
+        </div>
+        <h2 class="basket-title">Корзина</h2>
         <p class="basket-empty">В корзине пока пусто</p>
         <div class="basket-full">
             <p>Ваш заказ в ресторане</p>
             <p>Блюдо</p>
             <p>Количество приборов</p>
-            <button class="order-button">Оформить заказ</button>
+            <button class="order-button">Оформить заказ <span class="price-counter">0 ₽</span></button>
         </div>
     </div>
         <section class="restaurant-header">
@@ -746,8 +752,15 @@
 <a class="top-link hide" href="" id="js-top">
     <img src="public/btn-up.svg" alt="Вверх" class="top-link__image">
 </a>
+
+<div class="basket-module">
+    <p class="basket-module__title">Корзина
+        <span class="basket-module__price"> 0 ₽ </span>
+    </p>
+</div>
+
 <script src="btn-up.js"></script>
-<script src="search.js"></script>
+<!--<script src="search.js"></script>-->
 <script src="basket-form.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 

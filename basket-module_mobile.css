@@ -1,0 +1,30 @@
+.basket-module.visible {
+    position: fixed;
+    background-color: #59BD5A;
+    bottom: 0;
+    left: 6px;
+    /*right: 100px;*/
+    margin-bottom: 24px;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 7px 6px 7px 16px;
+    border-radius: 2px;
+    min-width: 200px;
+    display: flex;
+}
+
+.basket-module__price {
+    position: absolute;
+    right: 16px;
+}
+
+.basket-module {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .basket-module.visible {  /*чтобы при нажатии + на пк не появлялся модуль*/
+        display: none;
+    }
+}
