@@ -44,11 +44,10 @@ body {
     padding: 14px 20px;
     background-color: #FFFFFF;
     border: 0.1em solid #E0E0E0;
-    margin-right: -8px;
 }
 
 .user-list__basket {
-    visibility: hidden;
+   display: none;
 }
 
 a {

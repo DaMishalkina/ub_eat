@@ -4,6 +4,7 @@
     }
 
     .user-list__basket {
+        display: unset;
         visibility: visible;
         margin-right: 10px;
         padding: 0;
