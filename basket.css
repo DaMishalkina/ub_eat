@@ -70,10 +70,10 @@
 @media (max-width: 320px) {
 
     .basket-container {
-        display: none;
+        /*display: none;*/
     }
 
-    .basket-container.visible {
+    .basket-container /*.visible*/ {
         position: fixed;
         top: 50px;
         bottom: 0;
@@ -106,6 +106,24 @@
         margin: 0 0 16px 0;
         padding: 0 120px;
     }
+
+    .order-button {
+        position: absolute;
+        bottom: 20px;
+        padding: 8px 16px;
+        color: #FFFFFF;
+        background-color: #59BD5A;
+        font-family: Roboto, sans-serif;
+        font-size: 13px;
+        border: 0;
+        border-radius: 3px;
+        min-width: 90%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+
 
 
 }

@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93928ae1-69ed-4551-96f0-429a08d368e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basket-module_mobile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basket.css" beforeDir="false" afterPath="$PROJECT_DIR$/basket.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/basket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablet_main.css" beforeDir="false" afterPath="$PROJECT_DIR$/tablet_main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,8 @@
       <workItem from="1589380121284" duration="29903000" />
       <workItem from="1589808951856" duration="50058000" />
       <workItem from="1590135244313" duration="17497000" />
-      <workItem from="1590395149777" duration="24119000" />
+      <workItem from="1590395149777" duration="24375000" />
+      <workItem from="1590489560288" duration="3482000" />
     </task>
     <task id="LOCAL-00001" summary="footer css, select language">
       <created>1588761880153</created>
@@ -198,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590413765356</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="making basket-module in pushkin for mobiles">
+      <created>1590422204013</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1590422204013</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,25 +243,26 @@
     <MESSAGE value="making menu in pushkin for mobiles sticky" />
     <MESSAGE value="making basket-form" />
     <MESSAGE value="making quantity controls buttons for menu in pushkin" />
-    <option name="LAST_COMMIT_MESSAGE" value="making quantity controls buttons for menu in pushkin" />
+    <MESSAGE value="making basket-module in pushkin for mobiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="making basket-module in pushkin for mobiles" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1590413762237">
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1590422202722">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590413762237" />
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590422202722" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1590158989295">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590158989295" />
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1590413770056">
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1590422208067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590413770056" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590395154359">
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590422208067" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590489578818">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590395154359" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590489578818" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/289.-1050.1680.1010@0.0.1366.728" timestamp="1588747185106" />
   </component>
 </project>
