@@ -14,32 +14,39 @@
     display: none;
 }
 
-.product-quantity-controls__minus.visible, .product-quantity-controls__plus {
+.product-quantity-controls__minus, .product-quantity-controls__plus {
     padding: 4px;
     border-radius: 4px;
     cursor: pointer;
-    display: flex;
-    align-items: center;
     border: none;
+    display: flex;
 }
+
+.restaurants-quantity-controls__minus.visible {
+    display: unset;
+}
+
 
 .product-quantity-controls__plus {
     margin-right: 16px;
 }
 
-.product-quantity-controls__value.visible {
+.product-quantity-controls__value {
     margin: 0 8px;
     font-family: Roboto, sans-serif;
     color: #1D1D1D;
     font-size: 15px;
+}
+
+.restaurants-quantity-controls__value.visible {
     display: unset;
 }
 
-.product-quantity-controls__value {
+.restaurants-quantity-controls__value {
     display: none;
 }
 
-.product-quantity-controls__minus {
+.restaurants-quantity-controls__minus {
     display: none;
 }
 
@@ -53,8 +60,12 @@
 }
 
 @media (min-width: 768px) {
-    .product-quantity-controls__plus.hide {
+    .restaurants-quantity-controls__plus {
         display: none;
+    }
+
+    .restaurants-quantity-controls__plus.visible {
+        display: unset;
     }
 
 
@@ -72,6 +83,7 @@
         font-size: 16px;
         border: 0;
         border-radius: 3px;
+        cursor: pointer;
     }
 
     .product-quantity-controls__add.hide {
