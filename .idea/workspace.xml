@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93928ae1-69ed-4551-96f0-429a08d368e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/log-in-module.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorization_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/authorization_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/basket-form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket.css" beforeDir="false" afterPath="$PROJECT_DIR$/basket.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/basket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/login_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pushkin.css" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablet_main.css" beforeDir="false" afterPath="$PROJECT_DIR$/tablet_main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pushkin.html" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber_eat_page_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/uber_eat_page_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber_eat_tablet.css" beforeDir="false" afterPath="$PROJECT_DIR$/uber_eat_tablet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber_eats.html" beforeDir="false" afterPath="$PROJECT_DIR$/uber_eats.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +65,7 @@
       <workItem from="1590135244313" duration="17497000" />
       <workItem from="1590395149777" duration="24375000" />
       <workItem from="1590489560288" duration="7240000" />
-      <workItem from="1590500334970" duration="37840000" />
+      <workItem from="1590500334970" duration="40211000" />
     </task>
     <task id="LOCAL-00001" summary="footer css, select language">
       <created>1588761880153</created>
@@ -233,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590659336533</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="log-in button onclick function calling log-in form for all devices">
+      <created>1590676862028</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1590676862028</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,21 +278,22 @@
     <MESSAGE value="making basket-module in pushkin for mobiles_2" />
     <MESSAGE value="styling basket form and module for mobile, tablet, pc" />
     <MESSAGE value="authorization page" />
-    <option name="LAST_COMMIT_MESSAGE" value="authorization page" />
+    <MESSAGE value="log-in button onclick function calling log-in form for all devices" />
+    <option name="LAST_COMMIT_MESSAGE" value="log-in button onclick function calling log-in form for all devices" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1590659334283">
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1590676859489">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590659334283" />
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590676859489" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1590592577654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590592577654" />
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1590659341768">
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1590676864254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590659341768" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590676864254" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590504402076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

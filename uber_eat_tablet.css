@@ -1,6 +1,7 @@
 @media (min-width: 768px){
-    .page-main {
-        padding: 0 8px 0;
+    .search, .restaurants {
+        padding-left: 8px;
+        padding-right: 8px;
     }
     .restaurant-card__container {
         width: auto;

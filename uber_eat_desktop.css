@@ -1,6 +1,7 @@
 @media (min-width: 1124px){
-    .page-main {
-        padding: 0 84px 0;
+    .search, .restaurants {
+        padding-left: 84px;
+        padding-right: 84px;
     }
     .restaurant-card__image {
         width: 308px;
