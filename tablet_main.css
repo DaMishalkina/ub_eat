@@ -3,6 +3,16 @@
         margin-right: 0;
     }
 
+    .user-list__basket:hover {
+        outline: none;
+        -webkit-filter: brightness(80%);
+        filter: brightness(80%);
+    }
+
+    .user-list__login-basket:focus {
+        outline: none;
+    }
+
     .user-list__basket {
         margin-left: 27px;
         display: unset;

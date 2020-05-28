@@ -44,6 +44,17 @@ body {
     padding: 14px 20px;
     background-color: #FFFFFF;
     border: 0.1em solid #E0E0E0;
+    cursor: pointer;
+}
+
+.user-list__login-button:hover {
+    outline: none;
+    -webkit-filter: brightness(80%);
+    filter: brightness(80%);
+}
+
+.user-list__login-button:focus {
+    outline: none;
 }
 
 .user-list__basket {

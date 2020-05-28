@@ -18,6 +18,7 @@
     max-height: 513px;
     overflow-y: scroll;
 
+
 }
 
 .basket-title {
@@ -83,6 +84,23 @@
 
 }
 
+body.hide {
+    overflow: hidden;
+}
+
+.page-main__wrapper.hide {
+    -webkit-filter: brightness(40%);
+    filter: brightness(40%);
+    background: #FFFFFF;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+
 
 
 
@@ -104,6 +122,7 @@
         visibility: hidden;
         align-items: start;
         flex-direction: column;
+        z-index: 1;
 
     }
 
@@ -156,9 +175,6 @@
         outline: none;
     }
 
-    body.hide {
-        overflow: hidden;
-    }
 
     .basket-pop-up {
         display: none;
