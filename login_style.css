@@ -1,0 +1,104 @@
+body {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+
+.user-list__login-button {
+    /*display: none;*/
+}
+
+.sign-up__container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 8px;
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+.sign-up__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up__item {
+    margin-bottom: 16px;
+}
+
+.email-container, .password-container, .sign-up__password-repeat-container {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #979797;
+    padding: 6px;
+    border-radius: 5px;
+}
+.email-container[type='email'], .password-container[type="password"], .sign-up__password-repeat-container[type="password"],
+.sign-up__checkbox, .sign-up__request {
+    color: #1D1D1D;
+    font-size: 13px;
+    font-family: Roboto, sans-serif;
+}
+
+.email-container::placeholder, .password-container::placeholder, .sign-up__password-repeat-container::placeholder {
+    color: #979797;
+    font-size: 13px;
+    font-family: Roboto, sans-serif;
+}
+
+.sign-up__title {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.sign-up__buttons-container {
+    align-self: center;
+}
+
+.log-button {
+    padding: 8px 16px;
+    color: #FFFFFF;
+    background-color: #59BD5A;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    border: 0;
+    border-radius: 3px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-false-container {
+    display: none;
+}
+
+.checkbox-container {/* <-- стилизируем новый */
+    height: 8px;
+    width: 8px;
+    border: 1px solid #979797;
+    display: inline-block;
+    position: relative;
+    background-color:#FFF;
+    border-radius:2px;
+    padding:3px;
+    margin-right: 5px;
+}
+[type=checkbox]:checked + .checkbox-container:before {/* <-- ставим иконку, когда чекбокс включен  */
+    content: '\2714';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    font-size:23px;
+    color:#59BD5A;
+}
+
+@media (min-width: 768px) {
+    .sign-up__container {
+        padding: 32px;
+    }
+}
+
+

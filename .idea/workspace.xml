@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93928ae1-69ed-4551-96f0-429a08d368e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/add_to_basket_functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authorization_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/basket-form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket.css" beforeDir="false" afterPath="$PROJECT_DIR$/basket.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/basket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant-card__button-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant-card__button-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber_eat_page_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/uber_eat_page_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -37,7 +36,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../stepik_project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mean_project" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="ServiceViewManager">
@@ -66,7 +65,7 @@
       <workItem from="1590135244313" duration="17497000" />
       <workItem from="1590395149777" duration="24375000" />
       <workItem from="1590489560288" duration="7240000" />
-      <workItem from="1590500334970" duration="10026000" />
+      <workItem from="1590500334970" duration="20750000" />
     </task>
     <task id="LOCAL-00001" summary="footer css, select language">
       <created>1588761880153</created>
@@ -215,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590495704634</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="styling basket form and module for mobile, tablet, pc">
+      <created>1590511330814</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1590511330814</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,17 +262,18 @@
     <MESSAGE value="making quantity controls buttons for menu in pushkin" />
     <MESSAGE value="making basket-module in pushkin for mobiles" />
     <MESSAGE value="making basket-module in pushkin for mobiles_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="making basket-module in pushkin for mobiles_2" />
+    <MESSAGE value="styling basket form and module for mobile, tablet, pc" />
+    <option name="LAST_COMMIT_MESSAGE" value="styling basket form and module for mobile, tablet, pc" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1590495702372">
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1590511328669">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590495702372" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1590158989295">
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590511328669" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1590592577654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590158989295" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590592577654" />
     <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1590495706879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
