@@ -1,8 +1,10 @@
 body {
     padding: 0;
     margin: 0 auto;
-    width: 100%;
+    max-width: 100%;
     min-width: 320px;
+    position: relative;
+    overflow-x: hidden;
 }
 
 .page-header{
@@ -42,11 +44,21 @@ body {
     padding: 14px 20px;
     background-color: #FFFFFF;
     border: 0.1em solid #E0E0E0;
-    margin-right: -8px;
+    cursor: pointer;
+}
+
+.user-list__login-button:hover {
+    outline: none;
+    -webkit-filter: brightness(80%);
+    filter: brightness(80%);
+}
+
+.user-list__login-button:focus {
+    outline: none;
 }
 
 .user-list__basket {
-    visibility: hidden;
+   display: none;
 }
 
 a {
@@ -206,10 +218,6 @@ hr {
 
 /**/
 
-.page-footer__app {
-    /*margin-top: 24px;*/
-    /*padding-top: 0px;*/
-}
 
 .app-list {
     display: flex;
@@ -230,6 +238,7 @@ hr {
     color: #FFFFFF;
     font-family: Roboto, sans-serif;
     font-size: 13px;
+    margin-bottom: 0;
 }
 
 .bottom-list {
@@ -241,6 +250,37 @@ hr {
 .bottom-item {
     margin-bottom: 24px;
 }
+
+.top-link {
+    transition: all .25s ease-in-out;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    margin: 0 24px 24px 0;
+    width: 64px;
+    height: 64px;
+}
+
+.top-link.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.top-link.hide {
+    visibility: hidden;
+    opacity: 0;
+}
+.top-link__image {
+    width: 64px;
+    height: 64px;
+    padding: 0;
+}
+
+.top-link:hover {
+    opacity: 0.8;
+}
+
 
 
 

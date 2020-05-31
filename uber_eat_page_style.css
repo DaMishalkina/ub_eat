@@ -1,12 +1,19 @@
 .page-main {
-    padding-right: 4px;
-    padding-left: 4px;
+    padding: 0;
+    margin: 0;
 }
 
 /*Search bar*/
 .search {
-    margin-top: 55px;
+    margin-top: 0;
+    padding-top: 55px;
     margin-right: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.search__wrapper {
+    position: relative;
 }
 
 .search__line {
@@ -17,15 +24,15 @@
     border-bottom: 1px solid hsla(0, 0%, 38%, 0.3);
     font-family: Roboto, sans-serif;
     line-height: 24px;
+    box-sizing: border-box;
 
 }
 
 .search__line[type=text] {
-    color: hsla(0, 0%, 38%, 0.3);
+    color: #1D1D1D;
     margin-left: 4px;
     font-size: 16px;
-
-
+    font-family: Roboto, sans-serif;
 }
 
 .search__line::placeholder {
@@ -34,7 +41,38 @@
     font-size: 16px;
 }
 
+.button__search-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    color: #80868b;
+    cursor: pointer;
+    height: 50%;
+    padding: 0;
+    background-color: #FFFFFF;
+    border: 0;
+    visibility: hidden;
+    /*outline: none;*/
+}
+
+.close-btn__icon {
+    width: 24px;
+}
+
+.button__search-close:hover,
+.button__search-close:focus{
+    opacity: 0.3;
+    outline: none;
+}
+
+
 /*Restaurants cards*/
+
+.restaurants {
+    padding-right: 4px;
+    padding-left: 4px;
+}
 .restaurants__header {
     margin-left: 4px;
     margin-bottom: 16px;
@@ -45,6 +83,10 @@
     font-size: 22px;
     font-family: Roboto, sans-serif;
     font-weight: normal;
+}
+
+.restaurants__item.hide {
+    display: none;
 }
 
 .restaurants__list {

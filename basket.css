@@ -1,0 +1,197 @@
+.basket-container {
+    display: none;
+}
+
+.basket-container.visible {
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #f5f5f5;
+    z-index: 1;
+    border-radius: 16px;
+    box-shadow: 0 4px 5px -5px;
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: column;
+    max-height: 513px;
+    overflow-y: scroll;
+
+
+}
+
+.basket-title {
+    display: unset;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+}
+
+.basket-empty {
+    display: none;
+}
+
+.basket-pop-up {
+    border: 0;
+    height: 2px;
+    background: #979797;
+}
+
+.basket-pop-up__wrapper {
+    margin: 0;
+    padding: 0 120px;
+}
+
+.order-button {
+    position: fixed;
+    bottom: 0;
+    padding: 8px 16px;
+    color: #FFFFFF;
+    background-color: #59BD5A;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    border: 0;
+    border-radius: 3px;
+    min-width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.basket-product__info {
+    display: flex;
+    justify-content: space-between;
+    color: #1D1D1D;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Roboto, sans-serif;
+}
+
+.basket-full__item {
+    margin-bottom: 16px;
+}
+
+.basket-text {
+    font-size: 13px;
+    font-family: Roboto, sans-serif;
+    color: #626262;
+}
+
+.restaurant-title__value {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    color: #1D1D1D;
+    font-weight: bold;
+
+}
+
+body.hide {
+    overflow: hidden;
+}
+
+.page-main__wrapper.hide {
+    -webkit-filter: brightness(40%);
+    filter: brightness(40%);
+    background: #FFFFFF;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+    .basket-container {
+        display: flex;
+        background-color: #FFFFFF;
+        position: fixed;
+        top: 74px;
+        right: 0;
+        bottom: 0;
+        left: unset;
+        border-radius: unset;
+        padding: 24px;
+        font-size: 16px;
+        font-family: Roboto, sans-serif;
+        visibility: hidden;
+        align-items: start;
+        flex-direction: column;
+        z-index: 1;
+
+    }
+
+    .basket-title {
+        display: none;
+    }
+
+    .basket-button {
+        display: flex;
+        align-items: center;
+    }
+
+    .basket-price.visible {
+        margin-left: 8px;
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+    }
+
+    .basket-price {
+        display: none;
+    }
+
+    .basket-full {
+        display: none;
+    }
+
+    .basket-full.visible{
+        display: unset;
+    }
+
+    .order-button {
+        position: absolute;
+        bottom: 20px;
+        padding: 8px 16px;
+        color: #FFFFFF;
+        background-color: #59BD5A;
+        font-family: Roboto, sans-serif;
+        font-size: 13px;
+        border: 0;
+        border-radius: 3px;
+        min-width: 80%;
+    }
+
+    .order-button:hover {
+        opacity: 0.9;
+    }
+
+    .order-button:focus {
+        background-color: #327430;
+        outline: none;
+    }
+
+
+    .basket-pop-up {
+        display: none;
+    }
+
+    .basket-empty {
+        display: unset;
+        margin: auto;
+        font-family: Roboto, sans-serif;
+        font-size: 24px;
+        color: #626262;
+
+    }
+
+    .basket-empty.hide {
+        display: none;
+    }
+
+}
+

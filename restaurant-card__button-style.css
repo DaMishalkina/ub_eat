@@ -1,0 +1,105 @@
+.menu-product__row {
+    display: flex;
+    margin-top: 35px;
+}
+
+.product-quantity-controls__container {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+
+}
+
+.product-quantity-controls__add {
+    display: none;
+}
+
+.product-quantity-controls__minus, .product-quantity-controls__plus {
+    padding: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    display: flex;
+}
+
+.restaurants-quantity-controls__minus.visible {
+    display: unset;
+}
+
+
+.product-quantity-controls__plus {
+    margin-right: 16px;
+}
+
+.product-quantity-controls__value {
+    margin: 0 8px;
+    font-family: Roboto, sans-serif;
+    color: #1D1D1D;
+    font-size: 15px;
+}
+
+.restaurants-quantity-controls__value.visible {
+    display: unset;
+}
+
+.restaurants-quantity-controls__value {
+    display: none;
+}
+
+.restaurants-quantity-controls__minus {
+    display: none;
+}
+
+
+.menu-product__price {
+    order: 2;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    color: #1D1D1D;
+}
+
+@media (min-width: 768px) {
+    .restaurants-quantity-controls__plus {
+        display: none;
+    }
+
+    .restaurants-quantity-controls__plus.visible {
+        display: unset;
+    }
+
+
+
+    .menu-product__row {
+        margin-top: 83px;
+    }
+
+    .product-quantity-controls__add {
+        display: unset;
+        padding: 12px 36px;
+        color: #FFFFFF;
+        background-color: #59BD5A;
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        border: 0;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .product-quantity-controls__add.hide {
+        display: none;
+    }
+
+    .menu-product__price {
+        order: 0;
+        margin-right: 16px;
+    }
+
+}
+
+@media (min-width: 1124px) {
+    .menu-product__row {
+        margin-top: 63px;
+    }
+
+}

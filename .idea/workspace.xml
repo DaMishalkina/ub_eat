@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="93928ae1-69ed-4551-96f0-429a08d368e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pushkin.css" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pushkin_desktop.css" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin_desktop.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pushkin.html" beforeDir="false" afterPath="$PROJECT_DIR$/pushkin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber_eat_page_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/uber_eat_page_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber_eat_tablet.css" beforeDir="false" afterPath="$PROJECT_DIR$/uber_eat_tablet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber_eats.html" beforeDir="false" afterPath="$PROJECT_DIR$/uber_eats.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -29,9 +33,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mean_project" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="ServiceViewManager">
@@ -56,7 +61,11 @@
       <workItem from="1588846015026" duration="17742000" />
       <workItem from="1589274988260" duration="24293000" />
       <workItem from="1589380121284" duration="29903000" />
-      <workItem from="1589808951856" duration="3354000" />
+      <workItem from="1589808951856" duration="50058000" />
+      <workItem from="1590135244313" duration="17497000" />
+      <workItem from="1590395149777" duration="24375000" />
+      <workItem from="1590489560288" duration="7240000" />
+      <workItem from="1590500334970" duration="40211000" />
     </task>
     <task id="LOCAL-00001" summary="footer css, select language">
       <created>1588761880153</created>
@@ -128,7 +137,105 @@
       <option name="project" value="LOCAL" />
       <updated>1589461451031</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="table's max width in pushkin_desktop for FF">
+      <created>1589812642753</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589812642753</updated>
+    </task>
+    <task id="LOCAL-00012" summary="btn-up button">
+      <created>1589820011050</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1589820011051</updated>
+    </task>
+    <task id="LOCAL-00013" summary="main page search">
+      <created>1589896485348</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1589896485348</updated>
+    </task>
+    <task id="LOCAL-00014" summary="main page search update">
+      <created>1589901866201</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1589901866201</updated>
+    </task>
+    <task id="LOCAL-00015" summary="scrollable menu for mobile version of pushkin restaurant page">
+      <created>1589988358369</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1589988358369</updated>
+    </task>
+    <task id="LOCAL-00016" summary="webkit scrollbar restyle">
+      <created>1589990324554</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589990324554</updated>
+    </task>
+    <task id="LOCAL-00017" summary="making menu in pushkin for mobiles sticky">
+      <created>1589993242496</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1589993242496</updated>
+    </task>
+    <task id="LOCAL-00018" summary="making basket-form">
+      <created>1590160195829</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1590160195829</updated>
+    </task>
+    <task id="LOCAL-00019" summary="making quantity controls buttons for menu in pushkin">
+      <created>1590413765356</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1590413765356</updated>
+    </task>
+    <task id="LOCAL-00020" summary="making basket-module in pushkin for mobiles">
+      <created>1590422204013</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1590422204013</updated>
+    </task>
+    <task id="LOCAL-00021" summary="making basket-module in pushkin for mobiles_2">
+      <created>1590495704633</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1590495704634</updated>
+    </task>
+    <task id="LOCAL-00022" summary="styling basket form and module for mobile, tablet, pc">
+      <created>1590511330814</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1590511330814</updated>
+    </task>
+    <task id="LOCAL-00023" summary="authorization page">
+      <created>1590659336533</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1590659336533</updated>
+    </task>
+    <task id="LOCAL-00024" summary="log-in button onclick function calling log-in form for all devices">
+      <created>1590676862028</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1590676862028</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,21 +265,39 @@
     <MESSAGE value="refactoring pushkin css for mobiles" />
     <MESSAGE value="pushkin css for tablets" />
     <MESSAGE value="pushkin css for desktops" />
-    <option name="LAST_COMMIT_MESSAGE" value="pushkin css for desktops" />
+    <MESSAGE value="table's max width in pushkin_desktop for FF" />
+    <MESSAGE value="btn-up button" />
+    <MESSAGE value="main page search" />
+    <MESSAGE value="main page search update" />
+    <MESSAGE value="scrollable menu for mobile version of pushkin restaurant page" />
+    <MESSAGE value="webkit scrollbar restyle" />
+    <MESSAGE value="making menu in pushkin for mobiles sticky" />
+    <MESSAGE value="making basket-form" />
+    <MESSAGE value="making quantity controls buttons for menu in pushkin" />
+    <MESSAGE value="making basket-module in pushkin for mobiles" />
+    <MESSAGE value="making basket-module in pushkin for mobiles_2" />
+    <MESSAGE value="styling basket form and module for mobile, tablet, pc" />
+    <MESSAGE value="authorization page" />
+    <MESSAGE value="log-in button onclick function calling log-in form for all devices" />
+    <option name="LAST_COMMIT_MESSAGE" value="log-in button onclick function calling log-in form for all devices" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1589461450374">
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1590676859489">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589461450374" />
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1589461467245">
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590676859489" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1590592577654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589461467245" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1589809013243">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590592577654" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1590676864254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1589809013243" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590676864254" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590504402076">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590504402076" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/289.-1050.1680.1010@0.0.1366.728" timestamp="1588747185106" />
   </component>
 </project>

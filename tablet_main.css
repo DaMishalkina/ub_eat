@@ -1,11 +1,28 @@
 @media (min-width: 768px){
     .user-list__login-button {
-        margin-right: 27px;
+        margin-right: 0;
+    }
+
+    .user-list__basket:hover {
+        outline: none;
+        -webkit-filter: brightness(80%);
+        filter: brightness(80%);
+    }
+
+    .user-list__login-basket:focus {
+        outline: none;
     }
 
     .user-list__basket {
+        margin-left: 27px;
+        display: unset;
         visibility: visible;
         margin-right: 10px;
+        padding: 0;
+        background-color: #FFFFFF;
+        border: none;
+        outline: none;
+        cursor: pointer;
     }
 
     .page-footer__inner{
@@ -49,6 +66,16 @@
 
     .bottom-item {
         margin-bottom: 40px;
+    }
+    .top-link {
+
+        width: 80px;
+        height: 80px;
+    }
+
+    .top-link__image {
+        width: 80px;
+        height: 80px;
     }
 
 }
