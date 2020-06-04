@@ -33,13 +33,6 @@ body {
     margin-right: 8px;
 }
 
-.user-list__login-link{
-    font-family: "Roboto", sans-serif;
-    font-size: 13px;
-    color: #1D1D1D;
-    font-weight: bold;
-}
-
 .user-list__login-button{
     padding: 14px 20px;
     background-color: #FFFFFF;
@@ -57,7 +50,7 @@ body {
     outline: none;
 }
 
-.user-list__basket {
+.user-list__basket-button {
    display: none;
 }
 
@@ -142,13 +135,6 @@ hr {
     outline: 0;
 }
 
-.language-container__option {
-    font-size: 13px;
-    font-family: Roboto, sans-serif;
-}
-
-
-
 .language-container::after{
     font-family: FontAwesome;
     content: '\f107';
@@ -170,17 +156,7 @@ hr {
 /**/
 
 .page-footer__tag {
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
     margin-top: 32px;
-}
-
-.tag-link__sign{
-    color: #57AD56;
-}
-
-.tag-link__title {
-    color: #FFFFFF;
 }
 
 .page-footer__social-links {
@@ -197,8 +173,6 @@ hr {
 /**/
 
 .info-list__item, .customer-list__item {
-    font-family: Roboto, sans-serif;
-    font-size: 13px;
     margin-top: 23px;
 }
 
@@ -206,9 +180,6 @@ hr {
     padding-left: 0;
     margin-bottom: 0;
     padding-bottom: 0;
-}
-.page-footer__item-link {
-    color: #FFFFFF;
 }
 
 .page-footer__info-block {
@@ -234,10 +205,6 @@ hr {
 /**/
 
 .page-footer__bottom {
-    margin-top: 40px;
-    color: #FFFFFF;
-    font-family: Roboto, sans-serif;
-    font-size: 13px;
     margin-bottom: 0;
 }
 

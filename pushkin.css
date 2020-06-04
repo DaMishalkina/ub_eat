@@ -30,11 +30,8 @@
 .restaurant-card__name {
     margin-top: 0;
     margin-bottom: 0;
-    /*padding-top: 24px;*/
     text-align: center;
-    font-family: Roboto, sans-serif;
-    font-size: 24px;
-    font-weight: lighter;
+
 }
 
 .restaurant-card__info {
@@ -46,16 +43,10 @@
 
 .restaurant-card__cuisine {
     margin-top: 0;
-    font-family: Roboto, sans-serif;
-    font-size: 14px;
-    color: #626262;
     margin-bottom: 16px;
 }
 
 .restaurant-card__preparing-time {
-    font-family: Roboto, sans-serif;
-    font-size: 12px;
-    color: #FFFFFF;
     background-color: #1D1D1D;
     padding: 9px 16px;
     margin: 0 auto;
@@ -91,11 +82,9 @@
     flex-direction: row;
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
-    font: 16px Roboto, sans-serif;
 }
 
 .nav-links__item-link {
-    color: #626262;
     white-space: nowrap;
 }
 
@@ -103,19 +92,11 @@
     margin-right: 10px;
 }
 
-.nav-links__item-link:focus, .nav-links__item-link:hover{
-    color: #327430;
-    font-weight: bold;
-}
-
 
 /**/
 
 .menu__category-name {
     margin: 0 auto;
-    font-family: Roboto, sans-serif;
-    font-size: 22px;
-    font-weight: lighter;
     margin-top: 56px;
     padding-bottom: 12px;
     text-align: center;
@@ -181,10 +162,7 @@
 
 .item-title {
     margin: 0;
-    color: #1D1D1D;
-    font-size: 14px;
-    font-family: Roboto, sans-serif;
-    width: 206px;
+    width: 200px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -193,22 +171,15 @@
 /*Примечание*/
 
 .item-contains {
-    color: #626262;
-    font-family: Roboto, sans-serif;
-    font-size: 13px;
     margin-top: 4px;
     margin-bottom: -23px;
 }
 
 /*Цена*/
 
-.item-price {
-    color: #1D1D1D;
-    font-family: Roboto, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: 51px;
-
+.menu-product__row {
+    display: flex;
+    margin-top: 33px;
 }
 
 /*Ячейка с картинкой*/

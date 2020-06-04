@@ -3,30 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="main_style.css">
+    <link rel="stylesheet" href="uber_eat_page_style.css">
     <link rel="stylesheet" href="tablet_main.css">
     <link rel="stylesheet" href="desktop_main.css">
-    <link rel="stylesheet" href="login_style.css">
-    <link rel="stylesheet" href="basket.css">
-    <meta name="viewport" content="width=device-width,  initial-scale=1">
+    <link rel="stylesheet" href="uber_eat_tablet.css">
+    <link rel="stylesheet" href="uber_eat_desktop.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="basket.css">
+    <link rel="stylesheet" href="restaurant-card__button-style.css">
+    <link rel="stylesheet" href="basket-module_mobile.css">
+    <link rel="stylesheet" href="login_style.css">
+    <link rel="stylesheet" href="text-style.css">
+    <meta name="viewport" content="width=device-width,  initial-scale=1">
     <title>Authorization</title>
 </head>
 <body>
-<header class="page-header" id="#Uber">
-    <a href="#" class="page-header__logo">
-        <img src="public/logo.png" alt="Uber eat" class="page-header__logo-image">
+<header class="page-header" id="Uber">
+    <a href="uber_eats.html" class="page-header__logo">
+        <img src="public/logo.png" alt="Uber eats" class="page-header__logo-image" width="119.23px" height="12.31px">
     </a>
     <ul class="page-header__list user-list">
         <li class="user-list__item">
-            <button class="user-list__login-button">
-                <a href="#" class="user-list__login-link">Войти</a>
+            <button class="button user-list__login-button log-in-button" id="log-in-button">
+                <a class="page-text user-list__login-link">Войти</a>
             </button>
         </li>
         <li class="user-list__item">
-            <button class="user-list__basket basket-button" id="basket-button">
+            <button class="button user-list__basket-button basket-button" id="basket-button">
                 <img src="public/basket.png"  alt="Корзина" class="user-list__basket-image"
                      width="19" height="22">
-                <p class="basket-price"> 0 ₽ </p>
+                <span class="page-text user-list__basket-price"> 0 ₽ </span>
             </button>
         </li>
     </ul>
@@ -34,8 +40,8 @@
 
 <main class="page-main">
     <section class="sign-up__container">
-     <h1 class="sign-up__title">Регистрация</h1>
-        <p class="sign-up__request">Чтобы создать аккаунт, пожалуйста, заполните форму</p>
+     <h1 class="page-text sign-up__title">Регистрация</h1>
+        <p class="page-text sign-up__request">Чтобы создать аккаунт, пожалуйста, заполните форму</p>
             <div class="sign-up__form">
                 <label class="sign-up__email sign-up__item">
                     <input class="sign-up__email-container email-container" type="email" placeholder="Ваш email" id="email" required>
@@ -48,34 +54,95 @@
                 <input class="sign-up__password-repeat-container" type="password" placeholder="Повторите пароль" id="password-repeat" required>
                 </label>
 
-                <label class="sign-up__checkbox sign-up__item checkbox">
+                <label class="sign-up__checkbox sign-up__item checkbox page-text">
                     <input class="sign-up__checkbox-false-container checkbox-false-container" type="checkbox" checked id="remember">
                     <div class="checkbox-container"></div>
                     Запомнить
                 </label>
 
                 <div class="sign-up__buttons-container sign-up__item">
-                    <button class="button log-button sign-up__cancel-button" type="button">Отмена</button>
-                    <button class="button log-button sign-up__sign-up-button" type="button">Регистрация</button>
+                    <button class="button log-button sign-up__cancel-button page-text button-text" type="button">Отмена</button>
+                    <button class="button log-button sign-up__sign-up-button page-text button-text" type="button">Регистрация</button>
                 </div>
             </div>
     </section>
-    <div class="basket-container" id="basket-form">
+    <section class="basket-container" id="basket-form">
         <div class="basket-pop-up__wrapper">
             <hr class="basket-pop-up">
         </div>
-        <h2 class="basket-title">Корзина</h2>
-        <p class="basket-empty">В корзине пока пусто</p>
-        <div class="basket-full">
-            <div class="basket-full__item restaurant-title__container">
-                <p class="restaurant-title__key basket-text">Ваш заказ в ресторане</p>
-                <p class="restaurant-title__value">Ресторан</p>
+        <h2 class="page-text basket-title">Корзина</h2>
+        <p class="page-text addition-text basket--empty">В корзине пока пусто</p>
+        <div class="basket--full">
+            <div class="basket--full__item restaurant-title__container">
+                <p class="page-text addition-text restaurant-title__key basket-text">Ваш заказ в ресторане</p>
+                <p class="page-text restaurant-title__value">Ресторан</p>
             </div>
-            <div class="basket-full__item basket-product__container">
-                <div class="basket-product__info">
+            <div class="basket--full__item basket-product__container">
+                <div class="page-text basket-product__info">
                     <p class="basket-product__title">Блюдо</p>
                     <p class="basket-product__price"> 0 ₽  </p>
                 </div>
+                <div class="product-quantity-controls__container baskets-quantity-controls__container">
+                    <button class="button product-quantity-controls__minus baskets-quantity-controls__minus">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                             width="16px" height="16px" viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+                                            <path fill="#f6f6f6"
+                                                  d="M 38.999, 7
+                                                   H 11
+                                                   c -2.25, 0,   -4, 1.75,   -4, 4
+                                                   v 27.999
+                                                   C 7, 41.249,   8.75, 43,   11, 43
+                                                   h 27.999
+                                                   C 41.249, 43,   43, 41.249,   43, 38.999
+                                                   V 11
+                                                   C 43, 8.75,   41.249, 7,   38.999, 7
+                                                   z"/>
+                            <path fill="#80868b"
+                                  d="M 8, 20
+                                                   v -4
+                                                   h 20
+                                                   v 4
+                                                   h -20
+                                                   z"/>
+                                        </svg>
+                    </button>
+                    <p class="page-text product-quantity-controls__value baskets-quantity-controls__value"> 0 </p>
+                    <button class="button product-quantity-controls__plus baskets-quantity-controls__plus">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                             width="16px" height="16px" viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+                                             <path fill="#f6f6f6"
+                                                   d="M 38.999, 7
+                                                      H 11
+                                                      c -2.25, 0,   -4, 1.75,   -4, 4
+                                                      v 27.999
+                                                      C 7, 41.249,   8.75, 43,   11, 43
+                                                      h 27.999
+                                                      C 41.249, 43,   43, 41.249,   43, 38.999
+                                                      V 11
+                                                      C 43, 8.75,   41.249, 7,   38.999, 7
+                                                      z"/>
+                            <path fill="#80868b"
+                                  d="M 28, 20
+                                                      h -8
+                                                      v 8
+                                                      h -4
+                                                      v -8
+                                                      h -8
+                                                      v -4
+                                                      h 8
+                                                      v -8
+                                                      h 4
+                                                      v 8
+                                                      h 8
+                                                      v 4
+                                                      z"/>
+                                        </svg>
+                    </button>
+                </div>
+
+            </div>
+            <div class="basket--full__item basket-cutlery__container">
+                <p class="page-text addition-text basket-text">Количество приборов</p>
                 <div class="product-quantity-controls__container baskets-quantity-controls__container">
                     <button class="product-quantity-controls__minus baskets-quantity-controls__minus">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
@@ -100,70 +167,9 @@
                                                    z"/>
                                         </svg>
                     </button>
-                    <p class="product-quantity-controls__value baskets-quantity-controls__value"> 0 </p>
+                    <p class="page-text product-quantity-controls__value baskets-quantity-controls__value"> 0 </p>
                     <button class="product-quantity-controls__plus baskets-quantity-controls__plus">
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                             width="16px" height="16px" viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
-                                             <path fill="#f6f6f6"
-                                                   d="M 38.999, 7
-                                                      H 11
-                                                      c -2.25, 0,   -4, 1.75,   -4, 4
-                                                      v 27.999
-                                                      C 7, 41.249,   8.75, 43,   11, 43
-                                                      h 27.999
-                                                      C 41.249, 43,   43, 41.249,   43, 38.999
-                                                      V 11
-                                                      C 43, 8.75,   41.249, 7,   38.999, 7
-                                                      z"/>
-                            <path fill="#80868b"
-                                  d="M 28, 20
-                                                      h -8
-                                                      v 8
-                                                      h -4
-                                                      v -8
-                                                      h -8
-                                                      v -4
-                                                      h 8
-                                                      v -8
-                                                      h 4
-                                                      v 8
-                                                      h 8
-                                                      v 4
-                                                      z"/>
-                                        </svg>
-                    </button>
-                </div>
-
-            </div>
-            <div class="basket-full__item basket-cutlery__container">
-                <p class="basket-text">Количество приборов</p>
-                <div class="product-quantity-controls__container baskets-quantity-controls__container">
-                    <button class="product-quantity-controls__minus baskets-quantity-controls__minus">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                             width="16px" height="16px" viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
-                                            <path fill="#f6f6f6"
-                                                  d="M 38.999, 7
-                                                   H 11
-                                                   c -2.25, 0,   -4, 1.75,   -4, 4
-                                                   v 27.999
-                                                   C 7, 41.249,   8.75, 43,   11, 43
-                                                   h 27.999
-                                                   C 41.249, 43,   43, 41.249,   43, 38.999
-                                                   V 11
-                                                   C 43, 8.75,   41.249, 7,   38.999, 7
-                                                   z"/>
-                            <path fill="#80868b"
-                                  d="M 8, 20
-                                                   v -4
-                                                   h 20
-                                                   v 4
-                                                   h -20
-                                                   z"/>
-                                        </svg>
-                    </button>
-                    <p class="product-quantity-controls__value baskets-quantity-controls__value"> 0 </p>
-                    <button class="product-quantity-controls__plus baskets-quantity-controls__plus">
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                              width="16px" height="16px" viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
                                              <path fill="#f6f6f6"
                                                    d="M 38.999, 7
@@ -195,71 +201,72 @@
                     </button>
                 </div>
             </div>
-            <button class="order-button basket-full__item">Оформить заказ <span class="price-counter">0 ₽</span></button>
+            <button class="button order-button basket--full__item button-text page-text">Оформить заказ <span class="price-counter">0 ₽</span></button>
         </div>
-    </div>
+    </section>
 </main>
 
 <footer class="page-footer">
 
     <header class="footer-header">
         <a href="#Uber" class="page-footer__logo">
-            <img class="page-footer__logo-image" src="public/white-logo.png"
+            <img class="page-footer__logo-image" src="public/white-logo.png" width="190.77px" height="19.69px"
                  alt="Uber Eats">
         </a>
     </header>
     <hr>
     <div class="page-footer__inner">
         <div class="page-footer__social">
-            <div class="page-footer__container language-container">
+            <div class="page-footer__language-container language-container">
                 <img class="language-container__image" src="public/world.svg"
-                     width="16px" height="16px">
-                <select class="language-container__select" name="language">
-                    <option class="language-container__option" value="Russian">Русский</option>
-                    <option class="language-container__option" value="English">English</option>
+                     width="16px" height="16px" alt="Язык">
+                <label for="language-select"></label>
+                <select class="language-container__select" name="language" id="language-select">
+                    <option class="page-text color-background-text language-container__option" value="Russian">Русский</option>
+                    <option class="page-text color-background-text language-container__option" value="English">English</option>
                 </select>
             </div>
-            <p class="page-footer__tag tag-link">
-                <span class="tag-link__sign">#</span>
-                <span class="tag-link__title">UberEats</span>
-            <ul class="page-footer__social-links social-links">
-                <li class="social-links__item social-icon">
-                    <a class="social-icon__link" href="#">
-                        <img class="social-icon__image" src="public/facebook.png"
-                             width="24" height="24" alt="Facebook">
-                    </a>
-                </li>
-                <li class="social-links__item social-icon">
-                    <a class="social-icon__link" href="#">
-                        <img class="social-icon__image" src="public/twitter.png"
-                             width="24" height="24" alt="Twitter">
-                    </a>
-                </li>
-                <li class="social-links__item social-icon">
-                    <a class="social-icon__link" href="#">
-                        <img class="social-icon__image" src="public/instagram.png"
-                             width="24" height="24" alt="Instagram">
-                    </a>
-                </li>
-            </ul>
-            </p>
+            <div class="page-footer__tag tag-link">
+                <span class="page-text active-link-text tag-link__sign">#</span>
+                <span class="page-text color-background-text tag-link__title">UberEats</span>
+                <ul class="page-footer__social-links social-links">
+                    <li class="social-links__item social-icon">
+                        <a class="social-icon__link" href="#">
+                            <img class="social-icon__image" src="public/facebook.png"
+                                 width="24px" height="24px" alt="Facebook">
+                        </a>
+                    </li>
+                    <li class="social-links__item social-icon">
+                        <a class="social-icon__link" href="#">
+                            <img class="social-icon__image" src="public/twitter.png"
+                                 width="24px" height="24px" alt="Twitter">
+                        </a>
+                    </li>
+                    <li class="social-links__item social-icon">
+                        <a class="social-icon__link" href="#">
+                            <img class="social-icon__image" src="public/instagram.png"
+                                 width="24px" height="24px" alt="Instagram">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <div class="page-footer__info-block">
             <div class="page-footer__item">
                 <ul class="page-footer__item-list info-list">
                     <li class="info-list__item item-about">
-                        <a href="#" class="item-about__link page-footer__item-link">
+                        <a href="#" class="page-text color-background-text item-about__link page-footer__item-link">
                             Об UberEats
                         </a>
                     </li>
                     <li class="info-list__item item-delivery-partnership">
-                        <a href="#" class="item-delivery-partnership__link page-footer__item-link">
+                        <a href="#" class="page-text color-background-text item-delivery-partnership__link page-footer__item-link">
                             Станьте партнёром по доставке
                         </a>
                     </li>
                     <li class="info-list__item item-restaurant-partnership">
-                        <a href="#" class="item-restaurant-partnership__link page-footer__item-link">
+                        <a href="#" class="page-text color-background-text item-restaurant-partnership__link page-footer__item-link">
                             Станьте партнёром-рестораном
                         </a>
                     </li>
@@ -268,22 +275,22 @@
             <div class="page-footer__item">
                 <ul class="page-footer__item-list customer-list">
                     <li class="customer-list__item item-prices">
-                        <a href="#" class="item-prices__link page-footer__item-link">
+                        <a href="#" class="page-text color-background-text item-prices__link page-footer__item-link">
                             Все города
                         </a>
                     </li>
                     <li class="customer-list__item item-cities">
-                        <a href="#" class="item-cities__link page-footer__item-link">
+                        <a href="#" class="page-text color-background-text item-cities__link page-footer__item-link">
                             Цены
                         </a>
                     </li>
                     <li class="customer-list__item item-help">
-                        <a href="#" class="item-help__link page-footer__item-link">
+                        <a href="#" class="page-text color-background-text item-help__link page-footer__item-link">
                             Помощь
                         </a>
                     </li>
                     <li class="customer-list__item item-faqs">
-                        <a href="#" class="item-faqs__link page-footer__item-link">
+                        <a href="#" class="page-text color-background-text item-faqs__link page-footer__item-link">
                             FAQs
                         </a>
                     </li>
@@ -314,7 +321,7 @@
     <hr>
 
     <p class="page-footer__bottom">
-        <span class="bottom-list">
+        <span class="page-text color-background-text bottom-list">
             <a class="bottom-item">
                 © 2017 Uber Technologies Inc.
             </a>
