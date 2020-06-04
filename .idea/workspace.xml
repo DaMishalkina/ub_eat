@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93928ae1-69ed-4551-96f0-429a08d368e0" name="Default Changelist" comment="">
+    <list default="true" id="93928ae1-69ed-4551-96f0-429a08d368e0" name="Default Changelist" comment="no changes, control commit before checkout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       <workItem from="1590740935055" duration="4903000" />
       <workItem from="1590955449350" duration="1035000" />
       <workItem from="1591182707118" duration="1753000" />
-      <workItem from="1591263994598" duration="1147000" />
+      <workItem from="1591263994598" duration="1515000" />
     </task>
     <task id="LOCAL-00001" summary="footer css, select language">
       <created>1588761880153</created>
@@ -243,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590681494601</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="delete basket.html">
+      <created>1591267534537</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1591267534537</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,8 +269,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="footer css, select language" />
-    <MESSAGE value="footer, info-block" />
     <MESSAGE value="css for mobiles" />
     <MESSAGE value="main css for tablets" />
     <MESSAGE value="main css for desktops" />
@@ -288,21 +292,23 @@
     <MESSAGE value="authorization page" />
     <MESSAGE value="log-in button onclick function calling log-in form for all devices" />
     <MESSAGE value="adding basket- and log-in-forms to all pages and devices" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding basket- and log-in-forms to all pages and devices" />
+    <MESSAGE value="delete basket.html" />
+    <MESSAGE value="no changes, control commit before checkout" />
+    <option name="LAST_COMMIT_MESSAGE" value="no changes, control commit before checkout" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1590681492537">
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1591267902225">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590681492537" />
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1591267902225" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1590592577654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590592577654" />
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1590681496919">
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1591267545958">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1590681496919" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728/-158.-1050.1680.1010@0.0.1366.728" timestamp="1591267545958" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1591264080418">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
