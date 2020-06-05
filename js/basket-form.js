@@ -15,8 +15,10 @@ const screenOrigin = function () {
 
 
 
-
 btnBasket.onclick = function () {
+    if (logInForm.classList.contains('visible')) {
+        logInForm.classList.remove('visible');
+    }
     if(basketForm.style.visibility != 'visible') {
         basketForm.style.visibility = 'visible';
         screenDarkTheme();
