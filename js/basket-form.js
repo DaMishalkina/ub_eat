@@ -24,7 +24,6 @@ btnBasket.onclick = function () {
     } else {
         basketForm.style.visibility = 'hidden';
         screenOrigin();
-
     }
 };
 

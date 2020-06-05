@@ -28,9 +28,7 @@
 
 .product-quantity-controls__value {
     margin: 0 8px;
-    font-family: Roboto, sans-serif;
-    color: #1D1D1D;
-    font-size: 15px;
+
 }
 
 .restaurants-quantity-controls__value.visible {
@@ -68,10 +66,7 @@
     .product-quantity-controls__add {
         display: unset;
         padding: 12px 36px;
-        color: #FFFFFF;
         background-color: #59BD5A;
-        font-family: Roboto, sans-serif;
-        font-size: 16px;
         border: 0;
         border-radius: 3px;
         cursor: pointer;

@@ -24,6 +24,10 @@
         margin-right: 0;
     }
 
+    .language-container__select {
+        width: 179px;
+    }
+
     .page-footer__social {
         margin-right: 97px;
     }

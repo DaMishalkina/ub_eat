@@ -2,8 +2,8 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    src: url('fonts/roboto-v20-latin_cyrillic-regular.woff'),
-         url('fonts/roboto-v20-latin_cyrillic-regular.woff2');
+    src: url('../fonts/roboto-v20-latin_cyrillic-regular.woff'),
+         url('../fonts/roboto-v20-latin_cyrillic-regular.woff2');
 
 }
 
@@ -111,6 +111,23 @@
 
 /*authorization fonts*/
 
+.sign-up__title {
+    font-size: 24px;
+}
+.email-container[type='email'], .password-container[type="password"], .sign-up__password-repeat-container[type="password"],
+.sign-up__checkbox, .sign-up__request {
+    color: #1D1D1D;
+    font-size: 13px;
+    font-family: Roboto, sans-serif;
+}
+
+.email-container::placeholder, .password-container::placeholder, .sign-up__password-repeat-container::placeholder {
+    color: #979797;
+    font-size: 13px;
+    font-family: Roboto, sans-serif;
+}
+
+
 /*basket fonts*/
 
 .basket-title {
@@ -131,6 +148,14 @@
 
 .basket-module__title, .basket-module__price {
     font-size: 16px;
+}
+
+.product-quantity-controls__add {
+    font-size: 16px;
+}
+
+.product-quantity-controls__value {
+    font-size: 15px;
 }
 
 @media (min-width: 768px) {
@@ -157,6 +182,11 @@
 
     .basket--empty {
         font-size: 24px;
+    }
+
+    /*authorization fonts*/
+    .sign-up__title {
+        font-size: 36px;
     }
 }
 
