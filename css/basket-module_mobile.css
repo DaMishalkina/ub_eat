@@ -3,12 +3,8 @@
     background-color: #59BD5A;
     bottom: 0;
     left: 6px;
-    /*right: 100px;*/
     margin-bottom: 24px;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    color: #FFFFFF;
-    padding: 7px 6px 7px 16px;
+    padding: 6px 6px 7px 16px;
     border-radius: 2px;
     min-width: 200px;
     display: flex;

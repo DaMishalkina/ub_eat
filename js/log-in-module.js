@@ -5,6 +5,9 @@ const logInBtn = document.querySelector('#log-in-button'),
 
 
 logInBtn.onclick = function () {
+    if (basketForm.style.visibility == 'visible') {
+        basketForm.style.visibility = 'hidden';
+    }
     if(!logInForm.classList.contains("visible")) {
         screenDarkTheme();
         logInForm.classList.add('visible');

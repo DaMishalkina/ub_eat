@@ -28,22 +28,10 @@
     padding: 6px;
     border-radius: 5px;
 }
-.email-container[type='email'], .password-container[type="password"], .sign-up__password-repeat-container[type="password"],
-.sign-up__checkbox, .sign-up__request {
-    color: #1D1D1D;
-    font-size: 13px;
-    font-family: Roboto, sans-serif;
-}
 
-.email-container::placeholder, .password-container::placeholder, .sign-up__password-repeat-container::placeholder {
-    color: #979797;
-    font-size: 13px;
-    font-family: Roboto, sans-serif;
-}
 
 .sign-up__title {
     text-align: center;
-    font-family: Roboto, sans-serif;
     margin-top: 16px;
     margin-bottom: 16px;
 }
@@ -54,10 +42,7 @@
 
 .log-button {
     padding: 8px 16px;
-    color: #FFFFFF;
     background-color: #59BD5A;
-    font-family: Roboto, sans-serif;
-    font-size: 13px;
     border: 0;
     border-radius: 3px;
     cursor: pointer;
@@ -82,7 +67,7 @@
     display: none;
 }
 
-.checkbox-container {/* <-- стилизируем новый */
+.checkbox-container {
     height: 8px;
     width: 8px;
     border: 1px solid #979797;
@@ -93,7 +78,7 @@
     padding:3px;
     margin-right: 5px;
 }
-[type=checkbox]:checked + .checkbox-container:before {/* <-- ставим иконку, когда чекбокс включен  */
+[type=checkbox]:checked + .checkbox-container:before {
     content: '\2714';
     position: absolute;
     top: -10px;
@@ -118,11 +103,6 @@
     box-shadow: 0 4px 5px -5px;
 }
 
-.authorization-link {
-    font-family: Roboto, sans-serif;
-    font-size: 13px;
-    color: #59BD5A;
-}
 
 .authorization-link:hover, .authorization-link:focus {
     text-decoration: underline #59BD5A;

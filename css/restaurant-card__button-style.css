@@ -1,8 +1,3 @@
-.menu-product__row {
-    display: flex;
-    margin-top: 35px;
-}
-
 .product-quantity-controls__container {
     display: flex;
     flex-shrink: 0;
@@ -33,9 +28,7 @@
 
 .product-quantity-controls__value {
     margin: 0 8px;
-    font-family: Roboto, sans-serif;
-    color: #1D1D1D;
-    font-size: 15px;
+
 }
 
 .restaurants-quantity-controls__value.visible {
@@ -53,10 +46,6 @@
 
 .menu-product__price {
     order: 2;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: Roboto, sans-serif;
-    color: #1D1D1D;
 }
 
 @media (min-width: 768px) {
@@ -77,10 +66,7 @@
     .product-quantity-controls__add {
         display: unset;
         padding: 12px 36px;
-        color: #FFFFFF;
         background-color: #59BD5A;
-        font-family: Roboto, sans-serif;
-        font-size: 16px;
         border: 0;
         border-radius: 3px;
         cursor: pointer;
